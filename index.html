@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Sliders</title>
+<link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+	<div class="system-content">
+		<div style="text-align: center;"><h3>Детайли</h3></div>
+		<div class="tabs-number">
+			<div id="dizayn" class="after">Дизайн</div>
+			<div id="funtsionalnost">Функционалност</div>
+			<div id="materiali">Материали</div>
+			<div id="rabotni-plotove">Работни плотове</div>
+			<div id="dopalnitelno">Допълнително</div>
+		</div>
+		<div class="bg-grey">
+			<div class="info-content" style="width: 100%;">
+				<a href="#" onclick="changer(-1); return false;" class="arrow left-arrow"> &lt;</a><a href="#" onclick="changer(+1); return false;" class="arrow right-arrow">&gt;</a>
+				<div class="infoContent dizayn" style="display: block;">
+					<div class="inner-info active" data-id="0">
+						<div class="c2">
+							<h5>По Вашите изисквания и размери</h5>
+							<div class="text-content">1/4</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/dizayn-po-vashite-iziskvaniya.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="1">
+						<div class="c2">
+							<h5>Безплатна 3D визуализация</h5>
+							<div class="text-content">2/4</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/bezplatna-3D-vizualizaciya.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="2">
+						<div class="c2">
+							<h5>Безплатно взимане на размери</h5>
+							<div class="text-content">3/4</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/bezplatno-vzemane-na-razmeri.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="3">
+						<div class="c2">
+							<h5>Избор на оферта и бюджет</h5>
+							<div class="text-content">4/4</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/izbor-na-oferta-budjet.jpg" /></div>
+					</div>
+				</div>
+				<div class="infoContent funtsionalnost" style="display: none;">
+					<div class="inner-info" data-id="0">
+						<div class="c2">
+							<h5>Пет зони</h5>
+							<div class="text-content">1/6</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/pet-zoni.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="1">
+						<div class="c2">
+							<h5>Оптимално използване на пространството</h5>
+							<div class="text-content">2/6</div>
+						</div>
+						<div class="c1"><img src=" http://hitdizain.com/wp-content/uploads/2020/02/optimalno-izpolzvane-prostranstvo-2.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="2">
+						<div class="c2">
+							<h5>Удобен достъп</h5>
+							<div class="text-content">3/6</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/udoben-dostap.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="3">
+						<div class="c2">
+							<h5>Височина по мярка</h5>
+							<div class="text-content">4/6</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/visochina-po-myarka.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="4">
+						<div class="c2">
+							<h5>Практични решения</h5>
+							<div class="text-content">5/6</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/praktichni-resheniya.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="5">
+						<div class="c2">
+							<h5>LED осветления</h5>
+							<div class="text-content">6/6</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/led-osvetlenie.jpg" /></div>
+					</div>
+				</div>
+				<div class="infoContent materiali" data-img="process-img1.png" style="display: none;">
+					<div class="inner-info" data-id="0">
+						<div class="c2">
+							<h5>Ефект кадифе - супер мат</h5>
+							<div class="text-content">1/6</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/efekt-kadife-2.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="1">
+						<div class="c2">
+							<h5>Гланцово покритие - 96%</h5>
+							<div class="text-content">2/6</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/glancovo-pokritie.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="2">
+						<div class="c2">
+							<h5>Ефекти ръжда и цимент</h5>
+							<div class="text-content">3/6</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/feky-razhda-ciment.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="3">
+						<div class="c2">
+							<h5>Перла и металик</h5>
+							<div class="text-content">4/6</div>
+						</div>
+						<div class="c1"><img src=" http://hitdizain.com/wp-content/uploads/2020/02/perla-metalik.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="4">
+						<div class="c2">
+							<h5>3D фурнир</h5>
+							<div class="text-content">5/6</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/3d-furnir.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="5">
+						<div class="c2">
+							<h5>Естествен фурнир</h5>
+							<div class="text-content">6/6</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/estestven-furnir.jpg" /></div>
+					</div>
+				</div>
+				<div class="infoContent rabotni-plotove" data-img="process-img1.png" style="display: none;">
+					<div class="inner-info" data-id="0">
+						<div class="c2">
+							<h5>Масив</h5>
+							<div class="text-content">1/5</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/masiv.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="1">
+						<div class="c2">
+							<h5>Термоплот</h5>
+							<div class="text-content">2/5</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/ermoplot.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="2">
+						<div class="c2">
+							<h5>Технически камък</h5>
+							<div class="text-content">3/5</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/tehnicheski-kamak.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="3">
+						<div class="c2">
+							<h5>HPL с едноцветно ядро Slim Line</h5>
+							<div class="text-content">4/5</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/hpl-slim-line.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="4">
+						<div class="c2">
+							<h5>Минерални плоскости</h5>
+							<div class="text-content">5/5</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/corian.jpg" /></div>
+					</div>
+				</div>
+				<div class="infoContent dopalnitelno" style="display: none;">
+					<div class="inner-info" data-id="0">
+						<div class="c2">
+							<h5>Електроуреди</h5>
+							<div class="text-content">1/4</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/elektrouredi.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="1">
+						<div class="c2">
+							<h5>Технически камък</h5>
+							<div class="text-content">2/4</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/tehnicheski-kamak-2.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="2">
+						<div class="c2">
+							<h5>Принт стъкло</h5>
+							<div class="text-content">3/4</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/print-staklo.jpg" /></div>
+					</div>
+					<div class="inner-info" data-id="3">
+						<div class="c2">
+							<h5>Свързване на Ел. и ВиК</h5>
+							<div class="text-content">4/4</div>
+						</div>
+						<div class="c1"><img src="http://hitdizain.com/wp-content/uploads/2020/02/svarzvane-el-vik.jpg" /></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="carousel.js"></script>
+</html>
